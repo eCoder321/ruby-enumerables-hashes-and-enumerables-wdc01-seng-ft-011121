@@ -18,6 +18,9 @@ end
  end
  puts "\n"
  
- for i in hash 
+ for i in hash
+  for a in i 
+    p a 
+  end
   p i 
 end
