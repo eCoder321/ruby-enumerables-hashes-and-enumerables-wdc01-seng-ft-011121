@@ -26,6 +26,6 @@ end
  for i in hash
   for a in i 
  #   p a 
-#  end
-  p i 
+  end
+#  p i 
 end
