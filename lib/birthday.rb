@@ -11,10 +11,10 @@ end
  hash = {kay1: "val1", kay2: "val2", key3: "val3"}
  
  hash.each do |i|
-   puts i 
+   p i 
  end
  puts "\n"
  
  for i in hash 
-  puts i 
+  p i 
 end
