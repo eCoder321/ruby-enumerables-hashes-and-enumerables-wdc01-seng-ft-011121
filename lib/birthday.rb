@@ -10,9 +10,10 @@ end
 
  hash = {kay1: "val1", kay2: "val2", key3: "val3"}
  
- hash.each do |key, value|
+ hash.each do |key, value, other_key|
    p key 
    p value
+   p other_key
  end
  
  hash.each do |i|
