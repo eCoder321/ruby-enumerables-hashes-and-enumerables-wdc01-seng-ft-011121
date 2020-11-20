@@ -11,9 +11,7 @@ def happy_birthday(birthday_kids)
   end
 end
 
-happy_birthday(birthday_kids = {
-   "Timmy" => 9, 
-   6 => "Sammy"})
+puts happy_birthday(birthday_kids = {"Timmy" => 9, 6 => "Sammy"})
 
 
 
