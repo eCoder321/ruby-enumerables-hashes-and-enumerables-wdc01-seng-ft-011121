@@ -13,24 +13,25 @@ end
  array =  ["Gimli", "Thorin", "Balin", "Gloin"]
  
  hash.each do |key, value, other_key|
+   puts "#{key}: #{value}"
    p key 
    p value
   # p other_key
  end
  
  hash.each do |i|
+   #   p i 
    i.each do |a|
  #    p a 
    end
-#   p i 
  end
  puts "\n"
  
  for i in hash
+  #  p i 
   for a in i 
  #   p a 
   end
-#  p i 
 end
 
 
