@@ -11,7 +11,7 @@ end
  hash = {kay1: "val1", kay2: "val2", key3: "val3"}
  
  hash.each do |i|
-   p i 
+   puts i 
  end
  puts "\n"
  
