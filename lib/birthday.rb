@@ -10,17 +10,22 @@ end
 
  hash = {kay1: "val1", kay2: "val2", key3: "val3"}
  
+ hash.each do |key, value|
+   p key 
+   p value
+ end
+ 
  hash.each do |i|
    i.each do |a|
-     p a 
+ #    p a 
    end
-   p i 
+#   p i 
  end
  puts "\n"
  
  for i in hash
   for a in i 
-    p a 
-  end
+ #   p a 
+#  end
   p i 
 end
