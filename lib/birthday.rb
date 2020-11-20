@@ -13,4 +13,8 @@ end
  hash.each do |i|
    p i 
  end
+ puts "\n"
  
+ for i in hash 
+  p i 
+end
