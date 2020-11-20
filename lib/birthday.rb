@@ -36,7 +36,7 @@ end
 
 
 array.each do |key, value|
-   p key 
-   p value
+#   p key 
+#   p value
   # p other_key
  end
