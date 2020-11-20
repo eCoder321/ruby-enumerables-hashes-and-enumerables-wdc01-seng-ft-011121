@@ -16,5 +16,5 @@ end
  puts "\n"
  
  for i in hash 
-  p i 
+  puts i 
 end
