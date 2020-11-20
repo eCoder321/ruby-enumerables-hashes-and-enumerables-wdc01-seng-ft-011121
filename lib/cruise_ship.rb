@@ -14,5 +14,5 @@ def select_winner(passengers)
 end
 
 puts select_winner(passengers = {
- suite_a: "manda Presley", 
+ suite_a: "Amanda Presley", 
  suite_b: "Seymour Hoffman"})
