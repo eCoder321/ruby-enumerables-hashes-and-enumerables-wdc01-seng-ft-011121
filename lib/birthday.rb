@@ -11,7 +11,7 @@ def happy_birthday(birthday_kids)
   end
 end
 
-puts happy_birthday(birthday_kids = {"Timmy" => 9, 6 => "Sammy"})
+#puts happy_birthday(birthday_kids = {"Timmy" => 9, 6 => "Sammy"})
 
 
 
@@ -21,8 +21,8 @@ puts happy_birthday(birthday_kids = {"Timmy" => 9, 6 => "Sammy"})
  
  hash.each do |key, value, other_key|
    puts "#{key}: #{value}"
-   p key 
-   p value
+#   p key 
+#   p value
   # p other_key
  end
  
